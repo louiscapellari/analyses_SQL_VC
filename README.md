@@ -26,8 +26,6 @@ Cela permet d’identifier les propriétaires concernés dans une démarche de p
 **Thématique :** Risques naturels / Urbanisme  
 **Outils utilisés :** PostgreSQL/PostGIS, QGIS (DB Manager), pgAdmin 4  
 
----
-
 ### Objectif
 Créer une nouvelle couche vectorielle regroupant toutes les parcelles cadastrales concernées par un ou plusieurs risques naturels ou géologiques, à partir de différentes sources thématiques.  
 Cette couche permet de centraliser les risques par parcelle.
