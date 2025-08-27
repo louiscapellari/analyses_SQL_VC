@@ -18,6 +18,8 @@ Screenshot à intégrer</br>
 
 Cela permet d’identifier les propriétaires concernés dans une démarche de prévention et de servir de base pour les diagnostics de vulnérabilité tout en offrant une vue précise et géoréférencée sur l’emprise du risque foncier.</br> 
 
+---
+
 ## Création d’une couche de parcelles regroupant tous les risques identifiés
 
 **Nom du script associé :** `parcelles_avec_risques.sql`  
@@ -27,8 +29,8 @@ Cela permet d’identifier les propriétaires concernés dans une démarche de p
 ---
 
 ### Objectif
-Créer une nouvelle couche vectorielle regroupant toutes les **parcelles cadastrales** concernées par un ou plusieurs risques naturels ou géologiques, à partir de différentes sources thématiques.  
-Cette couche permet de **centraliser les risques par parcelle**.
+Créer une nouvelle couche vectorielle regroupant toutes les parcelles cadastrales concernées par un ou plusieurs risques naturels ou géologiques, à partir de différentes sources thématiques.  
+Cette couche permet de centraliser les risques par parcelle.
 
 ---
 
@@ -42,8 +44,8 @@ Cette couche permet de **centraliser les risques par parcelle**.
 
 ---
 
-### Résultat attendu
-Une couche vectorielle affichant **les parcelles à risques**, contenant un ou plusieurs risques naturels ou géologiques, prête à être visualisée et analysée dans QGIS.
+### Résultat
+Une couche vectorielle affichant les parcelles à risques, contenant un ou plusieurs risques naturels ou géologiques, prête à être visualisée et analysée dans QGIS.
 <img width="959" height="410" alt="parcelles_avec_risques" src="https://github.com/user-attachments/assets/e60b47d3-0f1f-4859-8b29-949da8cfd181" /> </br>
 
 
