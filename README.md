@@ -32,8 +32,6 @@ Cela permet d’identifier les propriétaires concernés dans une démarche de p
 Créer une nouvelle couche vectorielle regroupant toutes les parcelles cadastrales concernées par un ou plusieurs risques naturels ou géologiques, à partir de différentes sources thématiques.  
 Cette couche permet de centraliser les risques par parcelle.
 
----
-
 ### Données sources
 - **Parcellaire IGN** : `parcellaire.parcelle`  
 - **Risque inondation** : `risques.ppri`  
@@ -41,8 +39,6 @@ Cette couche permet de centraliser les risques par parcelle.
 - **Risque géologique (structure)** : `risques.geo050k_harm_l_struct`  
 - **Risque géologique (surcharge)** : `risques.geo050k_harm_s_surch`  
 - **Mouvement de terrain** : `risques.mvmt_terrain`  
-
----
 
 ### Résultat
 Une couche vectorielle affichant les parcelles à risques, contenant un ou plusieurs risques naturels ou géologiques, prête à être visualisée et analysée dans QGIS.
