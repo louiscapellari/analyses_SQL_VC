@@ -55,9 +55,9 @@ Une couche vectorielle affichant les parcelles à risques, contenant un ou plusi
 Calculer la longueur totale des lignes électriques et compter le nombre de pylônes électriques présents sur l’ancienne commune de Lanslebourg-Mont-Cenis. 
 
 ### Données sources 
-**Division cadastrale (IGN) :** `parcellaire.divcad`
-**Lignes électriques (IGN) :** `energie.ligne_electrique`
-**Pylônes (IGN) :** `energie.pylones`
+- **Division cadastrale (IGN) :** `parcellaire.divcad`  
+- **Lignes électriques (IGN) :** `energie.ligne_electrique`  
+- **Pylônes (IGN) :** `energie.pylones`  
 
 ### Méthodologie 
 A partir de la division cadastrale de l’IGN, on relève toutes les parcelles portant le nom “Lanslebourg-Mont-Cenis” pour ensuite calculer la longueur des lignes électriques comprises dans l’ancienne commune, et pour finir, compter le nombre de pylônes compris dans l’ancienne commune. 
