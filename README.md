@@ -47,9 +47,9 @@ Une couche vectorielle affichant les parcelles à risques, contenant un ou plusi
 ---
 
 ## Analyse des infrastructures électriques à Lanslebourg-Mont-Cenis 
-**Nom du script associé :** `longueur_ligne_elec_et_nb_pylones_lanslebourg.sql` 
-**Thématique :** Infrastructure de réseau 
-**Outils utilisés :** PostgreSQL/PostGIS, QGIS (DB Manager), pgAdmin 4
+**Nom du script associé :** `longueur_ligne_elec_et_nb_pylones_lanslebourg.sql`  
+**Thématique :** Infrastructure de réseau   
+**Outils utilisés :** PostgreSQL/PostGIS, QGIS (DB Manager), pgAdmin 4  
 
 ### Objectif  
 Calculer la longueur totale des lignes électriques et compter le nombre de pylônes électriques présents sur l’ancienne commune de Lanslebourg-Mont-Cenis. 
