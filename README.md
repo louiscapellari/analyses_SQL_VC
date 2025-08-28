@@ -24,7 +24,6 @@ La nouvelle table créée contient les parcelles exposées directement ou indire
 ---
 
 ## Création d’une couche de parcelles regroupant tous les risques identifiés
-
 **Nom du script associé :** `parcelles_avec_risques.sql`  
 **Thématique :** Risques naturels / Urbanisme  
 **Outils utilisés :** PostgreSQL/PostGIS, QGIS (DB Manager), pgAdmin 4  
@@ -47,5 +46,25 @@ Une couche vectorielle affichant les parcelles à risques, contenant un ou plusi
 
 ---
 
+## Analyse des infrastructures électriques à Lanslebourg-Mont-Cenis 
+**Nom du script associé :** `longueur_ligne_elec_et_nb_pylones_lanslebourg.sql` 
+**Thématique :** Infrastructure de réseau 
+**Outils utilisés :** PostgreSQL/PostGIS, QGIS (DB Manager), pgAdmin 4
+
+### Objectif  
+Calculer la longueur totale des lignes électriques et compter le nombre de pylônes électriques présents sur l’ancienne commune de Lanslebourg-Mont-Cenis. 
+
+### Données sources 
+**Division cadastrale (IGN) :** `parcellaire.divcad`
+**Lignes électriques (IGN) :** `energie.ligne_electrique`
+**Pylônes (IGN) :** `energie.pylones`
+
+### Méthodologie 
+A partir de la division cadastrale de l’IGN, on relève toutes les parcelles portant le nom “Lanslebourg-Mont-Cenis” pour ensuite calculer la longueur des lignes électriques comprises dans l’ancienne commune, et pour finir, compter le nombre de pylônes compris dans l’ancienne commune. 
+
+### Résultat 
+<img width="1782" height="788" alt="longueur_lignes_elec_et_nb_pylones_lanslebourg" src="https://github.com/user-attachments/assets/71807ae2-e773-4814-97dc-56d6f117424d" />
+
+--- 
 
 
