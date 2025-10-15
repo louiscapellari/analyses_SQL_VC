@@ -35,10 +35,10 @@ Cette couche permet de centraliser les risques par parcelle.
 ### Données sources
 - **Parcellaire (IGN)** : `parcellaire.parcelle`  
 - **Risque inondation (DDT)** : `risques.ppri`  
-- **Risque montagne** : `risques.pprn`  
-- **Risque géologique (structure)** : `risques.geo050k_harm_l_struct`  
-- **Risque géologique (surcharge)** : `risques.geo050k_harm_s_surch`  
-- **Mouvement de terrain** : `risques.mvmt_terrain`  
+- **Risque naturels (DDT)** : `risques.pprn`  
+- **Risque géologique (structure) (BRGM)** : `risques.geo050k_harm_l_struct`  
+- **Risque géologique (surcharge) (BRGM)** : `risques.geo050k_harm_s_surch`  
+- **Mouvement de terrain (BRGM)** : `risques.mvmt_terrain`  
 
 ### Résultat
 Une couche vectorielle affichant les parcelles à risques, contenant un ou plusieurs risques naturels ou géologiques, prête à être visualisée et analysée dans QGIS.
