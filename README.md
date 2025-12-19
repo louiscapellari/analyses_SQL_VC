@@ -3,7 +3,6 @@
 ## Identification des parcelles cadastrales concernées par les zones inondables recensées
 **Nom du script associé :** `parcelles_zones_inondables.sql`  
 **Thématique :** Risques naturels / Urbanisme  
-**Outils utilisés :** PostgreSQL/PostGIS, QGIS (DB Manager), pgAdmin 4  
 
 ### Objectif 
 L’objectif de cette analyse est d’identifier les parcelles cadastrales situées en contact ou incluses dans les zones inondables recensées dans le Plan de Prévention du Risque Inondation (PPRI). Ce croisement permet d’informer les décisions en matière d’aménagement, de construction et de gestion du territoire, notamment en zone à risque.</br>
@@ -26,7 +25,6 @@ La nouvelle table créée contient les parcelles exposées directement ou indire
 ## Création d’une couche de parcelles regroupant tous les risques identifiés
 **Nom du script associé :** `parcelles_avec_risques.sql`  
 **Thématique :** Risques naturels / Urbanisme  
-**Outils utilisés :** PostgreSQL/PostGIS, QGIS (DB Manager), pgAdmin 4  
 
 ### Objectif
 Créer une nouvelle couche vectorielle regroupant toutes les parcelles cadastrales concernées par un ou plusieurs risques naturels ou géologiques, à partir de différentes sources thématiques.  
@@ -48,8 +46,7 @@ Une couche vectorielle affichant les parcelles à risques, contenant un ou plusi
 
 ## Analyse des infrastructures électriques à Lanslebourg-Mont-Cenis 
 **Nom du script associé :** `longueur_ligne_elec_et_nb_pylones_lanslebourg.sql`  
-**Thématique :** Infrastructure de réseau   
-**Outils utilisés :** PostgreSQL/PostGIS, QGIS (DB Manager), pgAdmin 4  
+**Thématique :** Infrastructure de réseau    
 
 ### Objectif  
 Calculer la longueur totale des lignes électriques et compter le nombre de pylônes électriques présents sur l’ancienne commune de Lanslebourg-Mont-Cenis. 
