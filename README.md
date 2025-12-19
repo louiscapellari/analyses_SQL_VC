@@ -1,5 +1,7 @@
 # Analyses SQL
 
+Toutes les analyses qui suivent sont réalisées à partir des couches retrouvables dans le projet [vc_bdd](https://github.com/louiscapellari/vc_bdd). 
+
 ## Identification des parcelles cadastrales concernées par les zones inondables recensées
 **Nom du script associé :** `parcelles_zones_inondables.sql`  
 **Thématique :** Risques naturels / Urbanisme  
